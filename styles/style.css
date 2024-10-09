@@ -10,13 +10,38 @@
 .text-center{
     text-align: center;
 }
-
+.web-development-inner-part-title{
+    color: rgba(13, 19, 33, 0.70);
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.web-development-inner-part-description{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.web-dev-btn{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    background-color: #FFF;
+    opacity: 0.7;
+}
 /* Hero section styles */
 .hero{
     width: 100%;
     height: 652px;
     background: url('../assets/Hero-bg.png');
     margin: 0 auto;
+    margin-bottom: 74px;
 }
 .hero-container{
     width: 998px;
@@ -58,8 +83,50 @@
 
 /* Web Development styles */
 .web-development{
-
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 90px;
 }
 .web-development-container{
-    
+    padding: 80px 97px;
+}
+.web-development-title{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.web-development-description{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-bottom: 48px;
+}
+.web-development-first-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(236, 236, 236, 0.199) 100%);
+    padding: 48px;
+    margin-bottom: 32px;
+}
+.web-development-first-part-text{
+    width: 60%;
+}
+.web-development-middle-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    gap: 32px;
+    background: linear-gradient(270deg, #FFF 0%, rgba(236, 236, 236, 0.199) 100%);
+    padding: 48px;
+    margin-bottom: 32px;
 }
