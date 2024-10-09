@@ -1,0 +1,65 @@
+/* importing Azeret Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared styles */
+.text-center{
+    text-align: center;
+}
+
+/* Hero section styles */
+.hero{
+    width: 100%;
+    height: 652px;
+    background: url('../assets/Hero-bg.png');
+    margin: 0 auto;
+}
+.hero-container{
+    width: 998px;
+    margin: auto;
+    padding-top: 30px;
+}
+.hero-image{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.hero-title{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.hero-description{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.hero-btn{
+    padding: 21px 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
+    border-radius: 8px;
+    background: #0D1321;
+    cursor: pointer;
+}
+
+/* Web Development styles */
+.web-development{
+
+}
+.web-development-container{
+    
+}
