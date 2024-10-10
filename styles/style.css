@@ -133,9 +133,14 @@
 
 /* My inspection styles */
 .inspection{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 151px;
+}
+.inspection-container{
     width: 852px;
     margin-top: 90px;
-    margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -153,6 +158,85 @@
     font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 48px;
+}
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+}
+.video{
+    border-radius: 16px;
+    margin: 32px;
+}
+.video video{
+    width: 100%;
+    border-radius: 16px;
 }
 
-/* vid */
+/* My target styles */
+.my-target{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+.target-text{
+    padding-left: 97px;
+    padding-right: 97px;
+}
+.target-container{
+    margin-top: 0px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.card-1{
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.card-image>img{
+    margin-bottom: 24px;
+    width: 56px;
+    height: 56px;
+}
+.card-title{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.card-description{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.card-link{
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-link>a{
+    color: #0D1321;
+}
+
+.card-2{
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    width: 364px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
